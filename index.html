@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- https://mdbootstrap.com/docs/standard/extended/testimonials/ -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>TechVolution 2024</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top shadow-5-strong navbar-scrolled"
+      data-mdb-navbar-init
+    >
+      <a class="navbar-brand titlee" style="font-size: x-large;" href="#">TechVolution</a>
+      <button
+        class="navbar-toggler navbar-dark"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav d-flex justify-content-end">
+          <!-- <div class="group1"> -->
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">
+                Home <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house text-white" viewBox="0 0 20 20">
+                  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                </svg>
+                <span class="sr-only">
+                  <div
+                    class="bg-danger"
+                    height="20px"
+                    width="30px"
+                  ></div> </span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 20 20">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#custom-cards">Features
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 20 20">
+                  <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0"/>
+                  <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#testimonials"
+                >Testimonials
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-people" viewBox="0 0 20 20">
+                  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                </svg>
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#events">Events
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 20 20">
+                  <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0"/>
+                  <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
+                  <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#gallery">Gallery
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-images" viewBox="0 0 20 20">
+                  <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                  <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2M14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1M2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#timeline">Timeline
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-task" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z"/>
+                  <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z"/>
+                  <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Registration
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                  <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#prizes">Prizes
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trophy" viewBox="0 0 20 20">
+                  <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
+                </svg>
+              </a>
+            </li>
+          <!-- </div> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img
+              src="https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg"
+              style="filter: blur(2px);"
+              height="625px"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="text-align: start"
+            >
+              <h5 style="position: absolute; color: white; width: 30%">
+                Get Ready for
+                <span class="text-danger" style="font-size: 70px">Tech</span
+                ><span style="font-size: 70px">Volution</span><br />
+                <div
+                  style="
+                    font-size: 85px;
+                    font-family: Cambria, Cochin, Georgia, Times,
+                      'Times New Roman', serif;
+                  "
+                >
+                  2k24
+                </div>
+              </h5>
+              <p
+                class="text-white-50"
+                style="margin-top: 36vh; text-align: start; width: 50vw"
+              >
+               <!-- register -->
+               <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign up now for TechVolution 
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                  <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center" id="exampleModalLabel">TechVolution Registration Form</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- form -->
+                      <form class="form-card" id="form-card" action="/script.js" onsubmit="myFunc()">
+                        <!-- <div style="text-align: left; font-style: initial;">bPersonal Information</div> -->
+                        <div class="row justify-content-between text-left" style="margin-bottom: 8px;">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Enter your first name" onblur="" required="required"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Last name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="Enter your last name" onblur="" required="required"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Date of Birth<span class="text-danger"> *</span></label> <input type="date" id="dob" name="dob" placeholder=""
+                                 onblur="" pattern="\d{1,2}\/\d{1,2}\/\d{4}" 
+                                required="required"> </div>          
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label>Gender<span class="text-danger"> *</span></label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="male" value="Male" required="required">
+                                    <label class="form-check-label" for="male">Male</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="female" value="Female" required="required">
+                                    <label class="form-check-label" for="female">Female</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="non-binary" value="non-binary" required="required">
+                                    <label class="form-check-label" for="non-binary">Non-Binary</label>
+                                </div>
+                            </div>           
+                        </div>
+
+                        <div class="row justify-content-between text-left" style="margin-bottom: 8px;">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Email Address<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="" required="required"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Phone number<span class="text-danger"> *</span></label> <input type="text" id="phn" name="phn" placeholder="" onblur=""> </div>
+                        </div>
+
+                        <div class="row justify-content-between text-left"  style="margin-bottom: 8px;">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Street Address<span class="text-danger"> *</span></label> <input type="text" id="address1" name="address1" placeholder="" onblur="" required="required"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">City<span class="text-danger"> *</span></label> <input type="text" id="city" name="city" placeholder="" onblur="" required="required"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> 
+                                <label for="state" class="form-control-label px-3">State<span class="text-danger"> *</span></label>
+                                    <select name="state" id="state">
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chattisgarh">Chattisgarh</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                    </select>
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Zip Code<span class="text-danger"> *</span></label> <input type="text" id="zip" name="zip" placeholder="" onblur="" required="required">  </div>
+                        </div>
+
+                        <div class="row justify-content-between text-left"  style="margin-bottom: 8px;">
+                            <div class="form-group col-12 flex-column d-flex"> 
+                                <label for="preferences" class="form-control-label px-3">Event Preferences</label>
+                                <select name="preferences" id="preferences">
+                                    <option value="Conference">Conference</option>
+                                    <option value="Panel Discussion">Panel Discussion</option>
+                                    <option value="Seminar">Seminar</option>
+                                    <option value="Exhibition">Exhibition</option>
+                                    <option value="Training Session">Training Session</option>
+                                </select>
+                                <!-- <input type="text" id="preferences" name="preferences" placeholder="" onblur="validate(6)">  -->
+                            </div>
+                            <div class="form-group col-12 flex-column d-flex"> 
+                                <label for="dr" class="form-control-label px-3">Dietary Restrictions</label> 
+                                <textarea name="dr" id="dr" cols="30" rows="5"></textarea>
+                            </div>
+                            <div class="form-group col-12 flex-column d-flex"> 
+                                <label for="tshirt" class="form-control-label px-3">T-shirt size</label> 
+                                <select name="tshirt" id="tshirt">
+                                    <option value="xs">XS</option>
+                                    <option value="s">S</option>
+                                    <option value="m">M</option>
+                                    <option value="l">L</option>
+                                    <option value="xl">XL</option>
+                                    <option value="xxl">XXL</option>
+                                </select>
+                            </div>
+
+                        </div>
+                     
+                        <div class="row">
+                            <div class="form-group col-sm-6"> 
+                                <button type="submit" class="btn-block bg-info text-white">Register</button> 
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </p>
+              <!-- <p style="color: white;">Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img
+              src="https://images.pexels.com/photos/7271798/pexels-photo-7271798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              height="625px"
+              class="d-block w-100 img2"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5 style="font-size: 36px; margin-top: 115px; margin-bottom: 10px;">Experience the Future</h5>
+              <p style="font-size: 20px;">
+                Unveiling Innovation, Connecting Minds, and Shaping Tomorrow
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img
+              src="https://images.pexels.com/photos/1105379/pexels-photo-1105379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              height="625px"
+              class="d-block w-100 img3"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h5 style="font-size: 36px; margin-top: 115px; margin-bottom: 10px;">Unlock innovation with our tech event prizes</h5>
+              <p style="font-size: 20px;">
+                From cutting-edge gadgets to game-changing software, these rewards are designed to fuel your tech journey.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- features -->
+
+    <div class="container px-4 py-5" id="custom-cards">
+      <div class="pb-2 border-bottom">
+        <h5 style="font-size: 40px; text-align: center" class="">
+          Tech<span class="text-danger" style="font-style: italic"
+            >Volution</span
+          >
+          Features
+        </h5>
+      </div>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('./car1.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1 fw-bold">
+                Panel Discussions
+              </h2>
+              <p>Experts sharing insights and engaging in discussions on specific topics or emerging technologies.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="
+              background-image: url('https://i.pinimg.com/564x/96/c6/4a/96c64a60794c2745af8a8ebe0e295fba.jpg');
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1 fw-bold">
+                Workshop Sessions
+              </h2>
+              <p>Hands-on sessions where attendees can learn new skills, tools, and techniques directly from industry professionals.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>4d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('./car3.jpg')"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1">Startup Pitches</h2>
+              <p>Platforms for startups to pitch their ideas, products, and business models to potential investors, partners, and customers.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>5d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="
+              background-image: url('https://i.pinimg.com/564x/84/e6/d2/84e6d2f46f06a9a0295788470ee18fd8.jpg');
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1">
+                Keynote Presentations
+              </h2>
+              <p>High-profile speakers delivering talks on industry trends, innovations, and future developments.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="
+              background-image: url('https://i.pinimg.com/564x/45/43/7f/45437f2822474f73bcec6095217270ec.jpg');
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1">Hackathons</h2>
+              <p> Intense collaborative events where developers, designers, and entrepreneurs come together to create innovative solutions</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('./car1.jpg')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-2 mb-5 display-9 lh-1">
+                Innovation Showcases
+              </h2>
+              <p>Exhibitions highlighting groundbreaking research, prototypes, and experiments pushing the boundaries of technology.</p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Kolkata</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- timelines -->
+
+    <div class="timeline-con mb-5">
+      <div style="padding: 8px">
+        <h5 style="font-size: 40px; text-align: center" class="">
+          Here goes the
+          <span class="text-danger" style="font-style: italic">Event</span>
+          Timeline
+        </h5>
+      </div>
+      <div class="container py-5" id="timeline">
+        <div class="bsb-timeline-4 main-timeline-4 text-white">
+          <div
+            class="timeline-4 left-4"
+            data-mdb-animation-init
+            data-mdb-animation-reset="true"
+            data-mdb-animation="slide-out-left"
+          >
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-brain fa-2x mb-3"></i>
+                <h4 class="text-white">9:00 AM - 10:00 AM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Registration and Networking Breakfast
+                </p>
+                <!-- <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="timeline-4 right-4"
+            data-mdb-animation-init
+            data-mdb-animation-reset="true"
+            data-mdb-animation="slide-out-right"
+          >
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-camera fa-2x mb-3"></i>
+                <h4 class="text-white">10:00 AM - 10:30 AM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Opening Keynote Address
+                </p>
+                <!-- <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="timeline-4 left-4"
+            data-mdb-animation-init
+            data-mdb-animation-reset="true"
+            data-mdb-animation="slide-out-left"
+          >
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-campground fa-2x mb-3"></i>
+                <h4 class="text-white">10:30 AM - 12:00 PM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Panel Discussion: "Navigating the Future of Technology"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="timeline-4 right-4"
+            data-mdb-animation-init
+            data-mdb-animation-reset="true"
+            data-mdb-animation="slide-out-right"
+          >
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-sun fa-2x mb-3"></i>
+                <h4 class="text-white">12:00 PM - 1:00 PM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Lunch Break and Networking
+                </p>
+                <!-- <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="timeline-4 left-4"
+            data-mdb-animation-init
+            data-mdb-animation-reset="true"
+            data-mdb-animation="slide-out-left"
+          >
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-palette fa-2x mb-3"></i>
+                <h4 class="text-white">1:00 PM - 2:30 PM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Workshop Session 1: "Introduction to Artificial Intelligence"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 right-4">
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-laugh-beam fa-2x mb-3"></i>
+                <h4 class="text-white">4:30 PM - 5:30 PM</h4>
+                <p class="small text-white-50 mb-4">Day 1</p>
+                <p class="text-white">
+                  Interactive Demo: "Virtual Reality Showcase"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 left-4">
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">10:00 AM - 11:00 AM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Keynote Address: "The Evolution of Cybersecurity"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 right-4">
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">2:00 PM - 3:30 PM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Workshop Session 3: "Data Analytics and Visualization Techniques"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 left-4">
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">12:45 PM - 2:00 PM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Lunch Break and Networking
+                </p>
+                <!-- <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button> -->
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 right-4">
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">2:00 PM - 3:30 PM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Panel Discussion: "Innovations in Healthcare Technology"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-4 left-4">
+            <div class="card gradient-custom">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">3:45 PM - 5:15 PM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Workshop Session 4: "Introduction to Internet of Things (IoT)"
+                </p>
+                <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-4 right-4">
+            <div class="card gradient-custom-4">
+              <div class="card-body p-4">
+                <i class="fas fa-pizza-slice fa-2x mb-3"></i>
+                <h4 class="text-white">5:30 PM - 6:30 PM</h4>
+                <p class="small text-white-50 mb-4">Day 2</p>
+                <p class="text-white">
+                  Closing Keynote: "The Future of Tech: Trends and Predictions"
+                </p>
+                <!-- <button class="btn">
+                  <h6 class="badge bg-body-tertiary text-black mb-0">
+                    RSVP Now
+                  </h6>
+                </button> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- prizes -->
+    <div style="margin-left: 50px; margin-right: 50px; margin-top: 30px; margin-bottom: 40px;" id="prizes">
+      <h5 class="text-center" style="font-size: 40px; margin-bottom: 40px; text-align: center">Score Swag and More: Our <span class="text-danger" style="font-style: italic;">Prize</span> Collection Awaits!</h5>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/310dbe18266065.562c6a150cd70.jpg" style="height: 350px; width: 350px; display: flex; align-items: center;" class="card-img-top"
+            alt="tees" />
+          <div class="card-body">
+            <h5 class="card-title">T-Shirts</h5>
+            <p class="card-text">
+              Show your style and support for the event with our exclusive branded t-shirts! 
+              Crafted with comfort and quality in mind, these tees are perfect for showcasing your enthusiasm long after the event ends.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/293924249/IO/BD/NS/186632033/hiteck-black-bp-pdp-01-800x-500x500.jpg" style="height: 350px; width: 350px; justify-content: center;"  class="card-img-top"
+            alt="swag bags" />
+          <div class="card-body">
+            <h5 class="card-title">Swag Bags</h5>
+            <p class="card-text">
+              Get ready to be spoiled with our swag bags filled with goodies! 
+              From useful accessories to fun souvenirs, these bags are packed with surprises to make your event experience even more memorable.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://img.etimg.com/thumb/width-420,height-315,imgsize-49506,resizemode-75,msid-108105870/news/how-to/ten-innovative-tech-gadgets-to-help-maintain-your-health-fitness.jpg"  style="height: 350px; width: 350px;" class="card-img-top"
+            alt="Los Angeles Skyscrapers" />
+          <div class="card-body">
+            <h5 class="card-title">Tech Gadgets</h5>
+            <p class="card-text">
+              Win cutting-edge tech gadgets that will elevate your digital lifestyle! From sleek headphones to smart home devices, these prizes are designed to keep you connected 
+              and ahead of the curve in the world of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- events -->
+    <section id="events">
+      <div class="container">
+          <div class="section-heading wow fadeIn">
+              <h2 style="font-size: 40px; margin-bottom: 10px; text-align: center"><span class="text-danger" style="font-style: italic;">History </span>of TechVolution</h2>
+              <div class="heading-separator"></div>
+          </div>
+          <div class="row" >
+              <div class="history-wrapper">
+                  <div class="title-wrap text-center one-of-two">
+                      <!-- <h2 class="h1 text-secondary mb-0 text-uppercase">Bootdey.com</h2>
+                      <p class="fs-3 font-weight-500">Bootstrap snippet</p> -->
+                  </div>
+                  <div class="timeline-box one-of-two text-center">
+                      <img class="mb-1-6 rounded" src="https://www.aces.edu/wp-content/uploads/2021/11/GettyImages-875599880-scaled.jpg" style="height: 230px; width: 300px;">
+                      <div class="content">
+                          <h3 class="h4 mb-2 mb-md-3">Innovation Award</h3>
+                          <p class="mb-0">Acknowledgment for introducing groundbreaking ideas, technologies, or approaches within the event, fostering creativity and pushing the boundaries of what's possible in the tech industry.</p>
+                      </div>
+                      <div class="year">1995</div>
+                  </div>
+                  <div class="timeline-box one-of-two">
+                      <img class="mb-1-6 rounded" src="https://neuroject.com/wp-content/uploads/2023/07/Top_21_Biggest_Tech_Events_in_the_World_for_2023_Neuroject_01.jpg" alt="..."
+                      style="height: 280px; width: 280px;">
+                      <div class="content">
+                          <h3 class="h4 mb-2 mb-md-3">Best Tech Event</h3>
+                          <p class="mb-0"> Recognition for overall excellence in organizing and executing a technology-focused event, awarded by industry experts, attendees, or media outlets.</p>
+                      </div>
+                      <div class="year">2003</div>
+                  </div>
+                  <div class="timeline-box one-of-two">
+                      <img class="mb-1-6 rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLzpu3FtkQBIi72noj-c9mGemXH6Y69swxA8w71g_qOWqjjLJmFNcD8RKjv1iZmjY2_s&usqp=CAU" alt="..."
+                      style="height: 280px; width: 280px;">
+                      <div class="content">
+                          <h3 class="h4 mb-2 mb-md-3">International Recognition</h3>
+                          <p class="mb-0">Awards received for attracting participants, speakers, and attendees from diverse geographical regions, establishing the event as a global hub for tech innovation and collaboration.</p>
+                      </div>
+                      <div class="year">2018</div>
+                  </div>
+                  <div class="timeline-box one-of-two">
+                      <img class="mb-1-6 rounded" src="https://media.istockphoto.com/id/1289481257/photo/a-crowded-concert-hall-with-scene-stage-lights-rock-show-performance-with-people-silhouette.jpg?s=612x612&w=0&k=20&c=oNtQEaTIP-R83fnm8gIdmwBkzfncgoK4GljODaGK56k=" alt="..."
+                      style="height: 280px; width: 280px;">
+                      <div class="content">
+                          <h3 class="h4 mb-2 mb-md-3">Media Coverage Award</h3>
+                          <p class="mb-0">Recognition for fostering valuable partnerships with industry stakeholders, sponsors, exhibitors, or other organizations, contributing to the success and growth of the event.</p>
+                      </div>
+                      <div class="year">2021</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- gallery -->
+
+    <div class="lightbox mb-2 p-3" id="gallery" data-mdb-lightbox-init>
+      <h5
+        style="font-size: 40px; margin-bottom: 10px; text-align: center"
+        class=""
+      >
+        The
+        <span class="text-danger" style="font-style: italic">Picture</span>
+        Panorama
+      </h5>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            alt="Table Full of Spices"
+            class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
+            alt="Coconut with Strawberries"
+            class="w-100 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1587407627257-27b7127c868c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1558685555-bcdb675f9b9a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1638202677704-b74690bb8fa9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1663089174939-5870e2e8d62e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="w-100 mb-2 shadow-1-strong rounded"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonials -->
+   
+    <div class="container1 mb-5" id="testimonials">
+      <h5
+      style="font-size: 40px; margin-bottom: 60px; text-align: center"
+      class=""
+    >
+      What do <span class="text-danger" style="font-style: italic">people</span>
+      Say?
+    </h5>
+      <div class="row">
+          <div class="col-lg-4 mb-4">
+              <div class="card1">
+                  <div class="face front-face">
+                      <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                          alt="" class="profile">
+                      <div class="pt-3 text-uppercase name text-black">
+                          Robert Garrison
+                      </div>
+                      <div class="designation text-black">Android Developer</div>
+                  </div>
+                  <div class="face back-face">
+                      <span class="fas fa-quote-left"></span>
+                      <div class="testimonial text-black">
+                        Attending TechVolution was an incredible experience! The variety of innovative technologies showcased blew my mind. Can't wait for next year!
+                      </div>
+                      <span class="fas fa-quote-right"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card1">
+                  <div class="face front-face">
+                      <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                          alt="" class="profile">
+                      <div class="pt-3 text-uppercase name text-black">
+                          Jeffery Kennan
+                      </div>
+                      <div class="designation text-black">Full Stack Developer</div>
+                  </div>
+                  <div class="face back-face">
+                      <span class="fas fa-quote-left"></span>
+                      <div class="testimonial text-black">
+                        Kudos to the organizers of TechVolution for putting together such a well-organized and informative event. From the keynote speeches to the hands-on demos, every aspect was top-notch!
+                      </div>
+                      <span class="fas fa-quote-right"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card1">
+                  <div class="face front-face">
+                      <img src="https://pbs.twimg.com/profile_images/1132048838682906624/kFaXfQbR_400x400.jpg"
+                          alt="" class="profile">
+                      <div class="pt-3 text-uppercase name text-black">
+                          Suman Tiwari
+                      </div>
+                      <div class="designation text-black">CEO</div>
+                  </div>
+                  <div class="face back-face">
+                      <span class="fas fa-quote-left"></span>
+                      <div class="testimonial text-black">
+                        I had a blast at TechVolution! The hackathons were intense, but the camaraderie among participants made it all worthwhile. Can't wait to test my skills again next year!
+                      </div>
+                      <span class="fas fa-quote-right"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card1">
+                <div class="face front-face">
+                    <img src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" class="profile">
+                    <div class="pt-3 text-uppercase name text-black">
+                        Smith Jones
+                    </div>
+                    <div class="designation text-black">Frontend Lead</div>
+                </div>
+                <div class="face back-face">
+                    <span class="fas fa-quote-left"></span>
+                    <div class="testimonial text-black">
+                      TechVolution exceeded all my expectations! The engaging workshops and insightful panel discussions provided valuable insights into the future of tech. Highly recommended!
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="col-lg-4">
+          <div class="card1">
+              <div class="face front-face">
+                  <img src="https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg"
+                      alt="" class="profile">
+                  <div class="pt-3 text-uppercase name text-black">
+                      RajKishore Nayak
+                  </div>
+                  <div class="designation text-black">Frontend Lead</div>
+              </div>
+              <div class="face back-face">
+                  <span class="fas fa-quote-left"></span>
+                  <div class="testimonial text-black">
+                    I've been to many tech events, but TechVolution stands out as one of the best! The networking opportunities were fantastic, 
+                    and I made meaningful connections that will benefit my career for years to come.
+                  </div>
+                  <span class="fas fa-quote-right"></span>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card1">
+            <div class="face front-face">
+                <img src="https://img1.wsimg.com/isteam/ip/56c0cc13-b423-4d20-93f5-b95b2a675d4e/Robert-Fishman.jpg"
+                    alt="" class="profile">
+                <div class="pt-3 text-uppercase name text-black">
+                    John Doe
+                </div>
+                <div class="designation text-black">DevOps Lead</div>
+            </div>
+            <div class="face back-face">
+                <span class="fas fa-quote-left"></span>
+                <div class="testimonial text-black">
+                  TechVolution was an unforgettable event! The interactive exhibits and demos allowed me to immerse myself in cutting-edge tech, leaving me inspired and excited for the future.
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </div>
+      </div>
+  </div>
+
+<!-- Carousel wrapper -->
+    <!-- about section -->
+    <section class="py-5" id="about">
+      <div class="container">
+        <div class="row gx-4 align-items-center justify-content-between">
+          <div class="col-md-5 order-2 order-md-1">
+            <div class="mt-5 mt-md-0">
+              <span class="text-muted">Team TechVolution</span>
+              <h2 class="display-5 fw-bold">About Us</h2>
+              <p class="lead">We are a passionate team dedicated to curating unforgettable experiences that inspire, connect, and celebrate. With a focus on creativity and community, we strive to bring people together through engaging events that leave a lasting impact.</p>
+              <p class="lead">We believe in the power of shared moments to create positive change and memories that resonate. Join us in our journey to make every event an extraordinary adventure worth remembering.</p>
+            </div>
+          </div>
+          <div class="col-md-6 offset-md-1 order-1 order-md-2">
+            <div class="row gx-2 gx-lg-3">
+              <div class="col-6">
+                <div class="mb-2"><img class="img-fluid rounded-3" src="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Tech-Events.jpg"></div>
+              </div>
+              <div class="col-6">
+                <div class="mb-2"><img class="img-fluid rounded-3" src="https://a.storyblok.com/f/188325/1920x1280/41e681c422/alexandre-pellaes-6vajp0pscx0-unsplash-1-1.jpg"></div>
+              </div>
+              <div class="col-6">
+                <div class="mb-2"><img class="img-fluid rounded-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABTxvhmBuuoWkkEKQyWlnCb-kv7GO2KE_rDb4yA7Uug&s"></div>
+              </div>
+              <div class="col-6">
+                <div class="mb-2"><img class="img-fluid rounded-3" src="https://www.wowevents.com/wp-content/uploads/2018/05/accomplishment-achievement-adult-1059120-800x480.jpg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <!-- <div class="container my-5"> -->
+    <!-- Footer -->
+    <footer
+      class="text-center text-white"
+      style="background-color: rgb(26, 26, 26)"
+    >
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#about" class="text-danger">About us</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#prizes" class="text-danger">Prizes</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#events" class="text-danger">Events</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-danger">Help</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-danger">Contact</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-4" />
+
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Stay connected for the latest updates and announcements! Join us on social media: #TechVolution. For inquiries, sponsorship opportunities, or special accommodations, please contact us at "techVol@gmail.com". We look forward to welcoming you to an unforgettable experience!
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Social -->
+        <section class="text-center mb-5 my-4 row-gap-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-facebook"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-twitter-x"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-google"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-instagram"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-linkedin"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+            />
+          </svg>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 20 20">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg> -->
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-danger" href="/">TechVolution 2024</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!-- <section class="h-100 h-custom" style="background-color: #8fc4b7;">
+                        <div class="container py-5 h-100">
+                          <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col-xl-6">
+                              <div class="card rounded-3">
+                                <div class="card-body p-4 p-md-5">
+                                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Info</h3>
+                      
+                                  <form class="px-md-2">
+                      
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                      <input type="text" id="form3Example1q" class="form-control" />
+                                      <label class="form-label" for="form3Example1q">Name</label>
+                                    </div>
+                      
+                                    <div class="row">
+                                      <div class="col-md-6 mb-4">
+                      
+                                        <div data-mdb-input-init class="form-outline datepicker">
+                                          <input type="text" class="form-control" id="exampleDatepicker1" />
+                                          <label for="exampleDatepicker1" class="form-label">Select a date</label>
+                                        </div>
+                      
+                                      </div>
+                                      <div class="col-md-6 mb-4">
+                      
+                                        <select data-mdb-select-init>
+                                          <option value="1" disabled>Gender</option>
+                                          <option value="2">Female</option>
+                                          <option value="3">Male</option>
+                                          <option value="4">Other</option>
+                                        </select>
+                      
+                                      </div>
+                                    </div>
+                      
+                                    <div class="mb-4">
+                      
+                                      <select data-mdb-select-init>
+                                        <option value="1" disabled>Class</option>
+                                        <option value="2">Class 1</option>
+                                        <option value="3">Class 2</option>
+                                        <option value="4">Class 3</option>
+                                      </select>
+                      
+                                    </div>
+                      
+                                    <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
+                                      <div class="col-md-6">
+                      
+                                        <div data-mdb-input-init class="form-outline">
+                                          <input type="text" id="form3Example1w" class="form-control" />
+                                          <label class="form-label" for="form3Example1w">Registration code</label>
+                                        </div>
+                      
+                                      </div>
+                                    </div>
+                      
+                                    <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-success btn-lg mb-1">Submit</button>
+                      
+                                  </form>
+                      
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section> -->
